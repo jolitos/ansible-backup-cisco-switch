@@ -1,6 +1,6 @@
 # Backup Cisco Switches with Ansible
 
-- Basic script to backup Cisco Switch Config Files. This script execute two tasks (create folder and backup a config .cfg file) in one yaml file.
+- Basic script to backup Cisco Switch Config Files. This script execute two tasks (create folder and backup a config .cfg file) in one yaml playbook file.
 
 ## Execution Requirements
 
