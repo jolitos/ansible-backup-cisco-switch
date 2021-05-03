@@ -1,7 +1,6 @@
 ---
-# BACKUP SWITCHES CISCO by João Vitor Costa Medeiros
-# Task to create a directory "Switches" with the path "/bkp_year-moth-day/Switches/"
-# Feel free to edit the path.
+# BACKUP CISCO SWITCH by João Vitor Costa Medeiros
+# Task to create a directory "Switches" with the path "/bkp_year-moth-day/Switches/" (Feel free to edit)
 - hosts: localhost
   gather_facts: false
 
@@ -21,7 +20,7 @@
         state: directory
   run_once: true
 
-# Task to backup Cisco Switch Config File and save it in the patch "/bkp_year-month-day/Switch/hostname.cfg"
+# Task to backup Cisco Switch Config File and save it in the path "/bkp_year-month-day/Switch/hostname.cfg"
 # Remember to change or maintain the same path in both tasks.
 
 - hosts: switches_cisco
